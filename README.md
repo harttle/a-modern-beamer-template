@@ -3,6 +3,7 @@
 ## Features
 
 * Optimized Cambridge Theme
+* Morden Code Highlight
 * Full Examples
 * 中文支持：`styles/zh_cn.sty`
 

@@ -1,0 +1,60 @@
+\section{Code and Blocks}
+
+
+\subsection{Code Snippets}
+
+
+\begin{frame}[fragile]{A Simple Snippet}
+\framesubtitle{Frames with code should be fragile.}
+\begin{lstlisting}[language=JavaScript]
+// Some Great Guy
+var harttle = new Person('http://harttle.com');
+\end{lstlisting}
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{External Code}
+Latex allows external source files.
+\lstinputlisting[language=JavaScript]{assets/oo.js}
+\bigskip
+The effective code begins from line 4, and ends at line 5.
+\lstinputlisting[language=JavaScript, firstline=4, lastline=5]{assets/oo.js}
+\end{frame}
+
+
+\subsection{Blocks}
+
+
+\begin{frame}
+\frametitle{Plain Blocks}
+\begin{block}{A Fine Block}
+    A Simple Block.
+\end{block}
+\begin{example}
+    Some example goes here.
+\end{example} 
+\begin{alertblock}{Some Alert}
+    Something to alert.
+\end{alertblock}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Definitions and Theorems}
+\begin{definition}
+A prime number is a number that \ldots
+\end{definition}
+\begin{lemma}
+Some lemma required.
+\end{lemma}
+\begin{theorem}[Pythagoras]
+$ a^2 + b^2 = c^2$
+\end{theorem}
+\begin{corollary}
+$ x + y = y + x  $
+\end{corollary}
+\begin{proof}
+$\omega +\phi = \epsilon $
+\end{proof}
+\end{frame}

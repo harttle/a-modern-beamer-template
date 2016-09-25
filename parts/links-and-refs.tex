@@ -1,0 +1,41 @@
+\section{Links and Refs}
+
+
+\begin{frame}
+\frametitle{URLs}
+Use \lstinline|\\url\{http://harttle.com\}| for direct url: \url{http://harttle.com}
+
+\bigskip
+
+Use \lstinline|\\href\{http://harttle.com\}\{HarttleLand\}| for a named url: 
+\href{http://harttle.com}{HarttleLand}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{footnotes}
+Usually, you'll want URL to be attached within a footnote\footnotemark.
+
+\footnotetext[1]{ 
+    Remember to number the footnote, \url{http://harttle.com}
+}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Cross References}
+
+Use \lstinline|\\label\{\}| to define a label within the Table, and
+
+\begin{table}
+\begin{tabular}{ rlc }
+    right & left & center \\
+    right & left & center \\
+\end{tabular}
+\caption{A Sample Table}\label{tab:sample}
+\end{table}
+
+use \lstinline|\\ref\{\}| to reference the Table\ref{tab:sample},
+
+or you can make a \lstinline|\\pageref\{\}|: \pageref{tab:sample}.
+\end{frame}

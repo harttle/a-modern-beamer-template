@@ -1,0 +1,34 @@
+\uselanguage{chinese}
+\languagepath{chinese}
+
+\RequirePackage{fontspec}
+\RequirePackage{xunicode}
+
+% MacOS
+\setmainfont[BoldFont=STZhongsong, ItalicFont=STKaiti]{STSong}
+\setsansfont[BoldFont=STHeiti]{STXihei}
+\setmonofont{Consolas}
+
+% Ubuntu
+%\setmainfont[BoldFont=WenQuanYi ZenHei, ItalicFont=WenQuanYi YaHei]{WenQuanYi YaHei}
+%\setsansfont[BoldFont=WenQuanYi ZenHei]{WenQuanYi ZenHei}
+%\setmonofont{Consolas}
+
+\XeTeXlinebreaklocale "zh" 
+\XeTeXlinebreakskip = 0pt plus 1pt 
+
+\renewcommand{\today}{\number\year 年\number\month 月\number\day 日}
+
+\deftranslation[to=chinese]{Contents}{目录}
+\deftranslation[to=chinese]{Table}{表}
+\deftranslation[to=chinese]{Figure}{图}
+\deftranslation[to=chinese]{Theorem}{定理}
+\deftranslation[to=chinese]{Corollary}{推论}
+\deftranslation[to=chinese]{Definition}{定义}
+\deftranslation[to=chinese]{Definitions}{定义}
+\deftranslation[to=chinese]{Lemma}{引理}
+\deftranslation[to=chinese]{Problem}{问题}
+\deftranslation[to=chinese]{Solution}{解}
+\deftranslation[to=chinese]{Fact}{事实}
+\deftranslation[to=chinese]{Proof}{证明}
+\def\proofname{证明.}

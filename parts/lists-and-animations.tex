@@ -1,0 +1,52 @@
+\section{Lists and Animations}
+
+\subsection{Lists}
+
+
+\begin{frame}{Descriptions}
+    Descriptions of the Document:
+    \bigskip
+\begin{description}
+    \item[English] English is supported.
+    \item[简体中文] 本模板支持简体中文。
+    \item[繁體中文] 本模板支持繁體中文。
+\end{description}
+\end{frame}
+
+
+\begin{frame}{Itemize and Enumerate}
+\begin{enumerate}
+    \item Un-ordered Item
+    \item Second Un-ordered Item
+        \begin{itemize}
+            \item Sub Item 1
+            \item Sub Item 2
+        \end{itemize}
+    \item Third Item
+    \begin{enumerate}
+        \item Ordered Item 1
+        \item Ordered Item 2
+    \end{enumerate}
+\end{enumerate}
+\end{frame}
+
+
+\subsection{Animations}
+
+
+\begin{frame}
+\frametitle{Item Animation}
+\framesubtitle{Maybe you need a subtitle}
+You can \lstinline|\\emph\{\}| something like \emph{this}.
+\vfill
+\begin{enumerate}
+    \item<1-> First Item
+    \item<2-> Second Item
+    \item<3-> Third Item
+    \item Always Item
+\end{enumerate}
+
+\bigskip
+
+\only<2>{Only in the second page}
+\end{frame}

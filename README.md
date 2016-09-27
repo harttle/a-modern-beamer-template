@@ -1,5 +1,9 @@
 # A Modern Beamer Template
 
+## Preview
+
+[The Sample Document](main.pdf)
+
 ## Features
 
 * Optimized Cambridge Theme
